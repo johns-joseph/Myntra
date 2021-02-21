@@ -1,0 +1,1 @@
+document.getElementById('repeat').innerHTML="";
