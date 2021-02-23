@@ -18,6 +18,26 @@ function brand12()
                                "<h2 class=\"card-title myn-atom-h2\">"+ arr[i*j -1]+"</h2></div></div>" ;        
      }
   
+
+    brands = document.getElementById("12brandsipad");
+    brands.innerHTML = "<h4 class=\"mt-4 ps-md-3 text-secondary myn-atom-h4\">CATEGORIES TO BAG</h4>";
+    
+    arr = ["Shirts0" , "Shirts1" , "Jewellery" ,"Shirts3" ,"Handbags" ,"Shirts5" ,"T-shirts" ,"Dresses" ,"Sarees" ,"Casual Shoes" ,"Shorts & Trousers " ,"Shorts" , "Flats & Heels"];
+    
+    j= 0 ;i =0 ;
+      for(i=1;i<7;i++)
+      {
+
+        brands.innerHTML += "<div class=\"col-md-2 text-center d-md-inline-flex\">"+
+                           "<div class=\"card myn-molc-cardt2  myn-molc-cardt2--grey \">"+
+                           "<img src=\"images/brand (" + ++j +").PNG\" class=\"card-img-top img-fluid myn-cardt2__img\" alt=\"12 Brands\">"+
+                           "<h2 class=\"card-title myn-atom-h2  myn-cardt2__h2 \">"+ arr[j]+"</h2>"+
+                           "<img src=\"images/brand (" + ++j +").PNG\" class=\"card-img-top img-fluid\" alt=\"12 Brands\">"+
+                           "<h2 class=\"card-title myn-atom-h2 myn-cardt2__h2\">"+ arr[j]+"</h2>"+
+                           "</div></div>" ;
+      }
+
+
 }
 
     brand12();

@@ -41,6 +41,11 @@ p {
   font-size: 14px;
 }
 
+.myn-atom-h4 {
+  font-size: 16px;
+  font-family: "Roboto";
+}
+
 .m-atom-logo {
   width: 67px;
 }
@@ -106,6 +111,25 @@ ul {
 
 .myn-cardt1__h2 {
   font-size: 16px;
+}
+
+.myn-molc-cardt2 {
+  width: 82px;
+  height: 200px;
+}
+
+.myn-molc-cardt2--grey {
+  background-color: #f6f6f6;
+  border: none;
+}
+
+.myn-cardt2__img {
+  width: 80px;
+  height: 80px;
+}
+
+.myn-cardt2__h2 {
+  font-size: 10px;
 }
 
 .img-wrap {
@@ -188,6 +212,12 @@ ul {
 .myn-atom-app-store {
   width: 139px;
   height: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .myn-atom-h4 {
+    font-size: 25px;
+  }
 }
 
 @media screen and (min-width: 992px) {
