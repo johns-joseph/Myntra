@@ -1,28 +1,93 @@
- //ATOMS
-.myn-atom__h1
+$ff1: 'Whitney', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif
+$med:  768px
+$large:  992px
+
+.myn-org-header 
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 4px 12px 0px
+
+.m-molc-header-dropdown 
+  font-family: $ff1
+  font-weight: 700
+  font-size: 14px
+  letter-spacing: 0.3px
+  line-height: 50px
+
+.m-atom-header-searchbar 
+  width: 500%
+
+.myn-atom-logo 
+  width: 67px
+
+.m-atom-iconname 
+  font-size: 12px
+  font-family: $ff1
+  font-weight: 700
+
+// .box 
+//   height: 40px
+//   background-color: white
+//   display: flex
+//   -webkit-box-align: center
+//   -ms-flex-align: center
+//   align-items: center
+//   padding: 25px
+//   border: 1px solid rgb(245, 245, 246)
+//   border-radius: 5px
+//   padding-right: 111px
+
+
+// .box > i 
+//   font-size: 16px
+//   color: #777
+//   margin-left: -16px
+
+// .box > input 
+//   -webkit-box-flex: 1
+//   -ms-flex: 1
+//   flex: 1
+//   height: 30px
+//   border: none
+//   outline: none
+//   font-size: 15px
+//   width: 194px
+//   margin-top: -20px
+
+   
+.m-atom-headersearch 
+  width: 500px
+//ATOMS
+.myn-atom-h1
    font-size: 20px
+   font-family: $ff1
 
 
-.myn-atom__h2
+.myn-atom-h2
    font-size: 14px
+
+.m-atom-logo 
+   width: 67px
+
 ul
    padding: 0
-   
-   
-   
-.horizontal-slider
+
+.myn-org-horizontal-slider
    display: flex
    width: 100%
    overflow-x: scroll
    box-sizing: border-box
    padding: 2px 10px
 
-.horizontal-slider::-webkit-scrollbar 
+.myn-org-horizontal-slider::-webkit-scrollbar 
    display: none 
 
 .slider-container
    display: block
-   white-space: nowrap
+   white-space: nowrap 
+
+//HEADER
+
+   
+
 
 .item 
    display: inline-block
@@ -40,12 +105,80 @@ ul
    color: white 
    display: block
 
+.item  item__img-round
+   border-radius: 50%
+
+
+
+//Horizontal slider mobile
+.myn-molc-cardt1
+   display: inline-block
+   padding: 4px  8px
+   border: none
+
+.myn-cardt1__img
+   width: 50px
+   height: 50px
+
+.myn-cardt1__img--round
+   border-radius: 50%
+
+.myn-cardt1__h2
+   font-size: 16px  
+
+   
+
+
+//Horizontal slider mobile
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // FOOTER
 .myn-org-footer
    padding: 0px  18px
+   background-color: rgb(250, 251, 252)
 .myn-org-footer--grey
    background-color: #f5f5f6
+
+.m-atom-footer-heading 
+   display: block
+   font-size: 15px !important
+   color: #282c3f !important
+   font-weight: 600
+   
+.myn-molc-list
+   padding: 0
+   color: #696b79
+   font-size: 15px
+   line-height: 1.7
+
+.myn-footer-list
+   padding: 0
 
 .myn-footer-list__h2
    font-size: 15px
@@ -59,4 +192,12 @@ ul
    list-style-type: none 
 
 
+
+
 // FOOTER
+@media screen and (min-width:$med)
+
+
+
+@media screen and (min-width:$large)
+     

@@ -1,1 +1,1 @@
-document.getElementById('repeat').innerHTML="";
+var card1 = document.getElementsByClassName('repeat') ;
